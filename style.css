@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{ 
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(195, 216, 212);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 49, 119)
+}
+
+a:hover {
+    color: honeydew
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav h1 {
+    color: rgb(85, 49, 119);
+}
+
+nav a {
+    color: rgb(85, 49, 119);
+}
+
+nav a:hover {
+    color: honeydew;
+    border-bottom: 2px solid honeydew;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+.nav-button {
+    color:rgb(85, 49, 119) ;
+    font-size: 2rem;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.Tezt {
+    line-height: 1.5em;
+}
+
+img {
+    display: flex;
+    height: 20rem;
+    width: 15rem;
+    margin: auto;
+}
+
+.About1 {
+    margin: 100px  ;
+    gap: 10rem;
+    max-width: 75rem;
+    display: flex;
+    
+}
+
+.buttons {
+    background-color: honeydew;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+}
